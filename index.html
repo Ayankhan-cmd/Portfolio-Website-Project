@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <span>Ayan Khan</span>
+        </a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#project">Project</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <button type="button" id="menu-icon" aria-label="Open navigation menu" aria-expanded="false">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <button class="visit-btn">Visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="image.jpg" alt="Ayan Khan">
+            <div class="about-content">
+                <div class="info-box">
+                    <div class="name-line">
+                        <h3>Hi, I'm</h3>
+                        <h1>Ayan Khan</h1>
+                    </div>
+                    <span>Front-End Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download Resume</div>
+                    <div class="btn">Contact Me</div>
+                </div>
+                <div class="social" aria-label="Social profiles">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Frontend Developer</span>
+                    <h3>1 year</h3>
+                    <p>Worked on various frontend projects using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Graphic Designer</span>
+                    <h3>1 year</h3>
+                    <p>Created visual content for various clients and projects.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>System Design</span>
+                    <h3>1 year</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, eaque quaerat. Eaque hic, omnis asperiores est accusantium quis eum dolore et?</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Content Manager</span>
+                    <h3>2 year</h3>
+                    <p>Managed and created content for various platforms and channels.</p>
+                </div>
+            </div>
+            <img src="image.jpg" alt="Ayan Khan">
+        </div>
+    </section>
+
+    <section id="project" class="projects">
+        <h2 class="section-title">Recent Project</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="phptp3.webp" alt="">
+                <h3>Project X</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, libero?</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="photo2.webp" alt="">
+                <h3>Project Y</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, libero?</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="photo1.webp" alt="">
+                <h3>Project Z</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, libero?</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#project">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>   
+            </li>
+
+        </ul>
+        </nav>
+
+        <p class="copyright">&copy All Rights Reserved | Ayan Khan </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
